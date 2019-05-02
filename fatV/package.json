@@ -1,0 +1,14 @@
+{
+  "name": "fatvarg",
+  "version": "1.0.0",
+  "description": "a simple fat varg fan app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thatguy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

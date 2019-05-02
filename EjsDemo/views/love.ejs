@@ -1,0 +1,10 @@
+<% include partials/header %>
+<link rel="stylesheet" href="/app.css">
+<h1>You fell inlove with: <%= thinkVar.toUpperCase()%> </h1>
+<% if(thinkVar.toLowerCase() === "kiba"){ %>
+    <h2>Good Choice!</h2>
+<% }else { %>
+  <p> bad choise!</p>
+<% } %>
+<p>P.S this is the love.ejs</p>
+<% include partials/footer %>
